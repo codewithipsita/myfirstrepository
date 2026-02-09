@@ -43,7 +43,7 @@ $_SESSION['user']=$val;
     if ($_POST['button'] == "delete") {
         unset($_SESSION['user']);
         session_destroy();
-        echo "🗑️ Session deleted";
+        echo "🗑️ Session exit";
     }
 
 
